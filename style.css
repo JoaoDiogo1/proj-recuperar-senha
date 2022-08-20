@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", sans-serif;
+    color: #26f857;
+    border: none;
+  }
+
+  body {
+    padding-top: 20vh;
+    background-image: url(./src/AnasAbdin_\ Photo.gif);
+    background-size: cover;
+
+  }
+
+  .main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(61, 51, 51, 0.647);
+    border-radius: 10px;
+    padding: 25px;
+    
+  }
+
+  .main-container h1 {
+    color: #26f857;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    justify-content:center;
+}
+
+#email {
+    background-color: #17171a;
+    padding: 0px 16px 0px 16px;
+    margin-left: 5px;
+}
+
+.voltar, .full-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+input {
+    margin-top: 20px;
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    width: 16rem;
+  }
+
+input:focus {
+    border-color: #26f857;
+  }
+
+input[type="submit"] {
+    background-color: #26f857;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+ #btn-submit {
+    background-color: rgb(130, 87, 229);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+
+ #btn-submit:hover {
+    background-color: #10c903;
+    box-shadow: inset -4px 4px 0  #222;
+    font-size: 0.9rem;
+ }
+
+ .voltar{
+    margin-top: 5px;
+    text-decoration: none;
+ }
+
+ .voltar:hover{
+    text-decoration: underline;
+ }
+
